@@ -11,7 +11,7 @@ We are looking for the following
 This should not take you more than 2 hours. When you are done, push your solution to a public Github repository (preferred) or share a .zip file.
 
 ## Backend Challenge
-Build a REST API (Ruby on Rails preferred) that allows users to submit IP addresses. Fetch the country & city from GeoJS and store the results in a server memory cache. The IP addresses and their data do _not_ need to be persisted to a database. A second end point should allow users to see all previously queried IP addresses alongside relevant data. The user should also be able to filter these IP addresses by country & city. Each API should return JSON.
+Build a REST API (Ruby on Rails preferred) that allows users to submit IP addresses. Fetch the country & city from GeoJS and store the results in a server memory cache. The IP addresses and their data _should not_ be persisted to a database. A second end point should allow users to see all previously queried IP addresses alongside relevant data. The user should also be able to filter these IP addresses by country & city. Each API should return JSON.
 
 ## Frontend Challenge
 Build a standalone frontend app using [GatsbyJS](https://www.gatsbyjs.com/) that allows users to input an IP address. You can retrieve the country & city from GeoJS and show them on the page. The page should show all the input IP addresses and the country & city associated with them.
